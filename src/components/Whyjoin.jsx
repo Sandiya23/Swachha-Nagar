@@ -2,7 +2,7 @@ import React from 'react'
 
 const Whyjoin = () => {
   return (
-<section className="flex flex-col lg:flex-row lg:items-center mt-10">
+<section className="flex flex-col lg:flex-row lg:items-center mt-10" id='#whatwedo_scroll'>
   
   <div className="w-full lg:w-1/2 flex flex-col justify-center p-8 lg:p-24 mb-24">
     <p className="text-[#009600] text-xl mb-3 ">WHY YOU SHOULD JOIN US</p>

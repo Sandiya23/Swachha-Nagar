@@ -6,7 +6,7 @@ const Home = () => {
 
     
 
-<section class="bg-center bg-no-repeat bg-[url('src/assets/photo-1650638987536-6fbcb9bc6085.jpeg')] bg-gray-500 bg-blend-multiply mt-5">
+<section class="bg-center bg-no-repeat bg-[url('src/assets/photo-1650638987536-6fbcb9bc6085.jpeg')] bg-gray-500 bg-blend-multiply mt-5" id='#home_scroll'>
     <div class="px-4 mx-auto max-w-screen-xl text-center py-24 lg:py-56 bg-transparent">
         <h1 class="mb-4 text-4xl font-extrabold tracking-tight leading-none text-gray-300 md:text-5xl lg:text-9xl bg-transparent">स्वच्छ नगर </h1>
         <p class="mb-8 text-lg font-normal text-gray-300 lg:text-4xl sm:px-16 lg:px-48 bg-transparent">“Your waste, our responsibility. Let’s keep our city clean."</p>
@@ -35,7 +35,7 @@ const Home = () => {
     </div>
 </section> */}
 
-<section className="bg-[#eefffa] flex flex-col lg:flex-row lg:items-center">
+<section className="bg-[#eefffa] flex flex-col lg:flex-row lg:items-center" id='#about_scroll'>
   <div className="relative w-full lg:w-1/2">
     <img className="w-full h-auto" src="src/assets/QmcJcSBJDtnbW2YFC2uhczprcEcUQFCDc4dLN91dGKyVYz.jpeg" alt="image description"/>
     {/* <img className="hidden lg:block absolute w-1/3 h-auto top-1/2 transform -translate-y-1/2 left-30" src="src/assets/nonbiodegradable.jpg" alt="image description"/> */}

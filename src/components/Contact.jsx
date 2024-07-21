@@ -2,7 +2,7 @@ import React from 'react';
 
 const Contact = () => {
   return (
-    <footer className="bg-[#eefffa] text-center text-surface/75 dark:bg-neutral-700 dark:text-white/75 lg:text-left px-24 py-24">
+    <footer className="bg-[#eefffa] text-center text-surface/75 dark:bg-neutral-700 dark:text-white/75 lg:text-left px-24 py-24" id='#contact_scroll'>
       <div className="mx-6 py-10 text-center md:text-left bg-[#eefffa]">
         <div className="grid-1 grid gap-8 md:grid-cols-2 lg:grid-cols-4 bg-[#eefffa]">
           <div className="bg-[#eefffa] flex flex-col items-start">

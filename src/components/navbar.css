@@ -1,20 +1,21 @@
-/* #custom-green {
-    color: #009600;
-}
-.navbar-toggler {
-    border: none; 
-    box-shadow: none; 
-}
-
-.navbar-toggler:focus {
-    box-shadow: none; 
-    outline: none; 
-}
-.container-fluid {
-    width: 90%;
-    margin: auto;
-}
-.nav-link a{
-    color: black !important ;
-    z-index: 100;
-} */
+.custom-link {
+    position: relative;
+    text-decoration: none;
+  }
+  
+  .custom-link::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: -3px; /* Adjust this value to control the space between text and underline */
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: currentColor;
+    transition: width 0.3s ease;
+  }
+  
+  .custom-link:hover::after {
+    width: 100%;
+  }
+  
