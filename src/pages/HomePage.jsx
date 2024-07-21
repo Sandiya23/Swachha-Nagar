@@ -1,6 +1,8 @@
-import Footer from "../components/Footer"
+import Contact from "../components/Contact"
+import Gallery from "../components/gallery"
 import Home from "../components/Home"
 import Navbar from "../components/Navbar"
+import Whyjoin from "../components/Whyjoin"
 
 
 function HomePage(){
@@ -9,8 +11,13 @@ function HomePage(){
 
         <Home/>
 
+        <Gallery/>
 
-        <Footer/>
+        <Whyjoin/>
+
+        <Contact/>
+        
+  
     </>)
 }
 export default HomePage
